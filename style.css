@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SansSerif, sans-serif;
+}
+:root{
+    font-size: 1.2vw;
+}
+.container{
+    width: 100%;
+}
+
+/*navBar style*/
+.navBar{
+    background: rgb(33, 36, 61);
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+.navBar .logo{
+    display: flex;
+    justify-content: start;
+    margin-left:  2rem;
+    margin-right: 10rem;
+}
+.navBar .logo img{
+    width: 2.5rem;
+}
+.logo span{
+    margin-left: .3rem;
+}
+.search{
+    margin-left: 8rem;
+    margin-right: 1rem;
+}
+.search img{
+    width: 2rem;
+    margin-top: .6rem;
+}
+.navBar a{
+    color: white;
+    text-decoration: none;
+}
+
+/*header style*/
+.header{
+    background-image: url("img/header.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 32rem;
+}
+.header h1{
+    font-size: 7rem;
+    color: white;
+    padding-top: 6rem;
+    padding-left: 6rem;
+}
+.header p {
+    padding-left: 6rem;
+    white-space: pre-line;
+    margin-top: 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.header button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(33, 36, 61);
+    margin-left: 6rem;
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+}
+
+/*popular menu*/
+.popularMewnu{
+    background-image: url("img/bg1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 37rem;
+}
+.popularMewnu h2{
+    font-size: 3rem;
+    color: white;
+    padding-top: 4rem;
+    text-align: center;
+}
+.popularMewnu p{
+    text-align: center;
+    white-space: pre-line;
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.popularMewnu-carts{
+    display: flex;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+.popularMewnu-carts .cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 19rem;
+}
+.cart_img {
+    margin: 0 auto;
+}
+.popularMewnu-carts .cart img{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+.popularMewnu-carts .cart h3{
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.popularMewnu-carts .cart p{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+/*titleHere1*/
+.titleHere1{
+    background-image: url("img/bg2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    color: rgb(33, 36, 61);
+}
+.titleHere1-div{
+    display: flex;
+    padding-top: 8rem;
+    padding-left: 8rem;
+}
+.titleHere1-img,.titleHere1-text{
+    width: 45%;
+}
+.titleHere1-img img{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+}
+.titleHere1-text{
+    display: flex;
+    flex-direction: column;
+}
+.titleHere1-text h2{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+.titleHere1-text p {
+    white-space: pre-line;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+.titleHere1-text button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    background-color: rgb(33, 36, 61);
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+}
+
+/*statistic*/
+.statistic{
+    background-image: url("img/bg1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 35rem;
+    color: white;
+}
+.statistic-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.statistic h2{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+.statistic p {
+    white-space: pre-line;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+.statistic-circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 3.5rem;
+}
+.circle{
+    width: 12rem;
+    height: 12rem;
+    border: .2rem solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.statistic-circle .circle p{
+    margin: 0;
+}
+.circle p:first-child{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.circle p:last-child{
+    font-size: 2rem;
+}
+
+/*titleHere2*/
+.titleHere2{
+    background-image: url("img/bg3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 38rem;
+    color: rgb(33, 36, 61);
+}
+
+/*review*/
+.review{
+    background-image: url("img/bg4.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 35rem;
+    color: white;
+    text-align: center;
+}
+.cart_img img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-top: 3.5rem;
+}
+.review p{
+    width: 50%;
+    white-space: pre-line;
+    margin: 2rem auto 1rem;
+    font-size: 1.5rem;
+}
+.review h3{
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/*titleHere3*/
+.titleHere3{
+    background-image: url("img/bg3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    text-align: center;
+    color: rgb(33, 36, 61);
+}
+.titleHere3 h2{
+    font-size: 3rem;
+    padding-top: 7rem;
+}
+.titleHere3 p {
+    white-space: pre-line;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+}
+.titleHere3-email{
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.titleHere3-email input{
+    width: 60%;
+    padding: 1rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+    border: 0;
+    outline: none;
+}
+.titleHere3-email button{
+    border-radius: 1.5rem;
+    border: 0;
+    width: 10rem;
+    background: rgb(33, 36, 61);
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    right: 20px;
+}
+
+/*footer*/
+.footer{
+    height: 30rem;
+    background: rgb(33, 36, 61);
+    color: white;
+    display: flex;
+    padding-top: 7rem;
+}
+.footer-one{
+    width: 30rem;
+    padding-left: 10rem;
+    line-height: 1.5rem;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+.footer-two, .footer-three, .footer-fore{
+    width: 15rem;
+    padding-left: 3rem;
+    line-height: 2rem;
+}
+.footer h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
